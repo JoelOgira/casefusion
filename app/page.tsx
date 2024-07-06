@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className='min-h-full bg-slate-50'>
       <section>
-        <MaxWidthWrapper className="pb-24 pt-10 sm:pb-32 lg:pt-24 lg:pb-52 lg:grid lg:grid-cols-3 lg:gap-x-0 xl:gap-x-8 xl:pt-32"> 
+        <MaxWidthWrapper className="pb-24 pt-10 sm:pb-32 lg:pt-24 lg:pb-52 lg:grid lg:grid-cols-3 lg:gap-x-0 xl:gap-x-8 xl:pt-32">
           <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
             <div className="flex flex-col items-center text-center relative mx-auto lg:text-left lg:items-start">
               <div className="hidden absolute w-28 left-0 -top-20 lg:block">
@@ -87,7 +87,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="col-span-full lg:col-span-1 w-full flex justify-center px-8 sm:px-16 md:px-0 mt-32 lg:mx-0 lg:mt-20 h-fit">
+          <div className="col-span-full w-full flex justify-center mt-32 px-8 h-fit sm:px-16 md:px-0 lg:col-span-1 lg:px-0 lg:mt-20">
             <div className="relative md:max-w-xl">
               <img
                 src="/your-image.png"
