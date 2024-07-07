@@ -11,7 +11,7 @@ export default function Home() {
           <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
             <div className="flex flex-col items-center text-center relative mx-auto lg:text-left lg:items-start">
               <div className="hidden absolute w-28 left-0 -top-20 lg:block">
-                <img src="/snake-1.png" alt="logo" className="h-full" />
+                <img src="/snake-1.png" alt="logo" className="h-full italic" />
               </div>
 
               <h1 className='relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl'>
