@@ -10,7 +10,11 @@ interface PhoneProps extends HTMLAttributes<HTMLDivElement> {
 
 export default function Phone({ imgSrc, dark = false, className, ...props }: PhoneProps) {
     return (
-        <div className={cn("relative pointer-events-none z-50 overflow-hidden", className)}
+        <div
+            className={cn(
+                "relative pointer-events-none z-50 overflow-hidden",
+                className
+            )}
             {...props}
         >
             <img
