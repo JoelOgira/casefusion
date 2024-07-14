@@ -233,12 +233,16 @@ export default function Home() {
             <div className="relative flex flex-col items-center md:grid grid-cols-2 gap-40">
               <img
                 src="/arrow.png"
-                className="absolute top-[25rem md:top-1/2 -translate-y-1/2 z-10 left-1/2 -translate-x-1/2 rotate-90 md:rotate-0 italic"
+                className="absolute italic top-[25rem] -translate-y-1/2 z-10 left-1/2 -translate-x-1/2 rotate-90 md:rotate-0 md:top-1/2"
                 alt='arrow image'
               />
 
-              <div className="relative h-80 md:size-full md:justify-self-end max-w-sm rounded-xl bg-gray-900/5 ring-inset ring-gray-900/10 lg:rounded-2xl">
-                <img src="/horse.jpg" alt="horse image" className="italic rounded-md object-cover bg-white shadow-2xl ring-1 ring-gray-900/10 size-full" />
+              <div className="relative h-80 max-w-sm rounded-xl bg-gray-900/5 ring-inset ring-gray-900/10 md:size-full md:justify-self-end lg:rounded-2xl">
+                <img
+                  src="/horse.jpg"
+                  alt="horse image"
+                  className="italic rounded-md object-cover bg-white shadow-2xl ring-1 ring-gray-900/10 size-full"
+                />
               </div>
 
               <Phone
